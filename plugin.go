@@ -29,7 +29,7 @@ const (
 )
 
 var (
-	pluginVersion = "0.1.1"
+	pluginVersion = "0.1.1-sizhe.1"
 	stateMu       sync.RWMutex
 	state         = runtimeState{configError: "keeper_url is required"}
 )
