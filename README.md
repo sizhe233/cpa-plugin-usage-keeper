@@ -1,5 +1,9 @@
 # CPA Usage Keeper Plugin
 
+> This deployment fork publishes Linux amd64 CI packages only. Other-platform
+> builds must not block the Linux server release. Tests, vet, ELF architecture
+> validation and checksums remain required; production does not use local builds.
+
 CPA plugin for [CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI)
 that adds a `Keeper` resource entry to
 [CPAMC](https://github.com/router-for-me/Cli-Proxy-API-Management-Center) and
